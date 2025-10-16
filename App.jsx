@@ -11,6 +11,7 @@ import Candidates from './pages/Candidates';
 import CandidateDetail from './pages/CandidateDetail';
 import Onboarding from './pages/Onboarding';
 import OnboardingDetail from './pages/OnboardingDetail';
+//function
 
 function App() {
   const [user, setUser] = useState(null);
@@ -72,5 +73,6 @@ function App() {
     </Router>
   );
 }
+
 
 export default App;
